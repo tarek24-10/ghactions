@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          depricated=true
+          deprecated=true
           if [[deprecated]]; then
             echo "::warning::Deprecated function found"
           fi
